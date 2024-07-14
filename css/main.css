@@ -1,0 +1,74 @@
+body {
+    margin : 0 auto;
+    padding : 0;
+}
+
+header {
+    height : 0;
+}
+main {
+    height: 100vh;
+    background-color: aqua;
+    overflow: hidden;
+    display: flex;
+    padding:10px;
+}
+
+h1, h3, pre, ul, blockquote {
+    margin : 0;
+}
+
+h1 {
+    color :brown;
+}
+
+h3 {
+    padding-right : 30px;
+    text-align: end;
+}
+
+/* id */
+#content {
+    width: 60%;
+}
+
+pre { 
+    padding-right: 10px;
+    max-height : 350px;
+}
+
+/* tag  con */
+ul {
+    li {
+        a{
+            outline: morre;
+    }
+  }
+}
+
+/* ul li a {
+     outline : none;
+} */
+
+/* Custom image ----------- */
+#avatar {
+    width: 40%;
+    overflow: hidden;
+}
+
+#avater img {
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: aquamarine;
+    border-radius: 15px;
+}
