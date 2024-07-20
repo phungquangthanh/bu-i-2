@@ -8,7 +8,7 @@ header {
 }
 main {
     height: 100vh;
-    background-color: aqua;
+    background-color: black;
     overflow: hidden;
     display: flex;
     padding:10px;
@@ -57,9 +57,9 @@ ul {
 }
 
 #avater img {
-    width: 550px;
-    height: 550px;
-    object-fit: cover;
+    width: 500px;
+    height: 500px;
+    object-fit: contain ;
     border-radius: 50%;
 }
 
